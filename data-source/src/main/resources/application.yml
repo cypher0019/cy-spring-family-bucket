@@ -23,5 +23,3 @@ bar:
     url: jdbc:h2:mem:bar
     username: bar
     password: root
-
-spring.datasource.druid
