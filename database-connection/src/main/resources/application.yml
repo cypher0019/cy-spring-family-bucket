@@ -1,0 +1,25 @@
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password:
+#    initialization-mode: embedded
+#    hikari.maximumPoolSize: 5
+#    hikari.minimumIdle: 5
+#    hikari.idleTimeout: 600000
+#    hikari.connectionTimeout: 30000
+#    hikari.maxLifetime: 1800000
+#    schema: classpath:schema.sql
+#    data: classpath:data.sql
+
+foo:
+  datasource:
+    url: jdbc:h2:mem:foo
+    username: foo
+    password: root
+
+bar:
+  datasource:
+    url: jdbc:h2:mem:bar
+    username: bar
+    password: root
